@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  nav li {
+    @apply inline-block my-10 mr-10 ml-14;
+  }
+  nav p {
+    @apply text-4xl text-white my-9 ml-32;
+  }
+  h1 {
+    @apply text-5xl mt-6;
+  }
+  h2 {
+
+  }
+  p {
+
+  }
+  main {
+    @apply container mx-auto grid-flow-row text-center;
+  }
+}

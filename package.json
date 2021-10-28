@@ -1,0 +1,23 @@
+{
+  "name": "cpnt201-a5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/main.css -o public/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-cq/cpnt201-a5.git"
+  },
+  "keywords": [],
+  "author": "Lucas Cummings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucas-cq/cpnt201-a5/issues"
+  },
+  "homepage": "https://github.com/lucas-cq/cpnt201-a5#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
