@@ -6,19 +6,43 @@
   nav li {
     @apply inline-block my-10 mr-10 ml-14;
   }
-  nav p {
+  nav ul {
+    @apply ml-auto p-0 text-2xl text-white;
+  }
+  .navtext {
     @apply text-4xl text-white my-9 ml-32;
   }
   h1 {
-    @apply text-5xl mt-6;
+    @apply text-5xl mt-6 mb-8 p-0;
   }
   h2 {
-
+    @apply text-3xl mb-6;
   }
-  p {
-
+  h3 {
+    @apply text-3xl mb-6 mt-12;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  body {
+    @apply m-0 p-0;
   }
   main {
-    @apply container mx-auto grid-flow-row text-center;
+    @apply m-0;
+  }
+  article {
+    @apply mt-12 mb-6 text-center;
+  }
+  .text-section {
+    @apply text-xl flex justify-center items-center flex-wrap max-w-prose;
+  }
+  img {
+    @apply w-1/2; 
+  }
+  p {
+    @apply mb-8 text-xl w-1/2 ml-auto mr-auto;
+  }
+  main ul {
+    @apply text-xl;
   }
 }

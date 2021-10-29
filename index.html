@@ -6,124 +6,98 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="public/main.css">
-  <title>Scavengit with Tailwind</title>
+  <title>blog</title>
 </head>
+<!--This page is full of bugs and spelling errors.-->
 
 <body>
-    <header class="bg-indigo-600">
-      <nav class="flex justify-around">
-        <p><strong>Logo</strong></p>
-        <ul class="ml-auto p-0 text-2xl text-white">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header class="bg-indigo-600">
+    <nav class="flex justify-around">
+      <p class="navtext"><strong>Logo</strong></p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <header>
-      <h1>Scavengit Bug Hunt</h1>
-      <p>A game for learning how to collaborate on git</p>
-      <!--Put your team member names and roles in here-->
-      <div>
-        <h2>Players</h2>
-      </div>
-    </header>
-    <!--possibly make this a nav with links -->
-    <section>
-      <h2>Objectives</h2>
-      <ul>
-        <li>Make Pull Requests</li>
-        <li>Set up Collaborators</li>
-        <li>Fix Merge Conflicts</li>
-        <li>Use a gitignore</li>
-      </ul>
-      <p>This game is meant to be played in groups of 3-4. You will be working in your fork of this repo, adding one
-        another as collaborators, practicing project management. and solving merge conflicts</p>
-    </section>
-
-    <section>
-      <h2>Prepare your Project</h2>
-      <ol>
-        <li>Create a markdown file named 'commits' in your fork</li>
-        <li>Make git ignore the file when you push changes</li>
-        <li>Add your name under to the header under the h1</li>
-        <li>Copy the links to the git commit into your untracked markdown file</li>
-      </ol>
-    </section>
-
-    <section>
-      <h2>Git Collaboration</h2>
-      <p>You will have 2 different types of collaborators</p>
-      <dl>
-        <dt>Collaborators with commit access</dt>
-        <dd>These people have been given commit access through the github repo's settings. They can write directly to
-          the repo without making PRs</dd>
-        <dt>Contributors without commit access</dt>
-        <dd>These people must make pull requests from their fork to your repo in order to make changes.</dd>
-      </dl>
-      <h3>Setup Tasks</h3>
-      <ol>
-        <li>Add your own name with the title 'maintainer'</li>
-        <li>Add one group member as a collaborator</li>
-        <li>The other group member will fork and contribute through PRs</li>
-        <li>You must also be added as a collaborator to 1 repo and contribute with PRs to another</li>
-        <li>Add the names of the collaborator and contributor under your own in the header</li>
-        <li>Push changes</li>
-        <li>Copy the link to the git commit into your untracked markdown file</li>
-      </ol>
-      <h3>Rules Outline</h3>
-      <ol>
-        <li>As a team decide on 3 rules for how your team will use git. ie: always pull before push, min/max word count
-          for commit messages, review process for PRs</li>
-        <li>Commit and push</li>
-        <li>Add the commit link to the untracked markdown file</li>
-      </ol>
-    </section>
-
-    <section>
-      <h2>Pull Requests and Code Edits</h2>
-      <p>Here's where things get messy</p>
-      <ul>
-        <li>Make a change to the html on both of your partner's pages.</li>
-        <li>Make a change to the css on both of your partner's pages</li>
-        <li>Review and accept the PR if it meets your team's rules</li>
-        <li>Copy the commit link from your collaborator's change into your untracked markdown file</li>
-        <li>Copy the commit link from your contributor's pull request into your markdown file</li>
-        <li>Copy the commit links for both your commit and PR</li>
-      </ul>
-      <h3>Merge Conflicts!</h3>
-      <p>If you experienced and resolved a merge conflict in the above steps, then you're already done this part</p>
-      <p>Otherwise, force a merge conflict in your repo and resolve it. Then copy the commit link into your untracked
-        changes file</p>
-    </section>
-    <section>
-      <h2>Endgame</h2>
-      <ul>
-        <li>Remove your markdown file from the gitignore and add it to your repo.</li>
-        <li>Tally up all of the git commits listed in your markdown file</li>
-        <li>rename the markdown file to have the number of commits in the title</li>
-        <li>In the README, add your repo link and github pages link under the first heading</li>
-        <li>In your README, add the heading "Attributions" and add your team members names with links to their github
-          accounts</li>
-      </ul>
-      <h3>Submission</h3>
-      <ul>
-        <li>Zip your project folder and submit it to brightspace</li>
-        <li>Add your github repo link and github pages link to the submission text box</li>
-        <li>Submit your assignment</li>
-      </ul>
-      <p>Grading will be based on git commits documented and <strong>labelled</strong> in your commits markdown file</p>
-    </section>
-    <section>
-      <h2>Placeholder article</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem eos earum blanditiis
-        animi provident quo delectus minus ducimus impedit? Maiores delectus nostrum nobis nisi natus
-        voluptate fuga eligendi, placeat, dignissimos odio quo unde consectetur saepe, aliquam voluptates
-        eos ducimus.
-      </p>
-    </section>
+    <article>
+      <header>
+        <h1><span class="bg-blue-400 p-4 rounded text-white">Creating a design system</span></h1>
+        <p>How to make a design system in figma</p>
+        <div>
+          <img class="ml-auto mr-auto" src="assets/images/lg/design-we-trust.webp" alt="In Design We Trust Image">
+        </div>
+      </header>
+      <section>
+        <h3 class="mt-8"><span class="bg-blue-400 p-2 rounded-2xl text-white">Intro</span></h3>
+        <p>A design system can be very complex and specific. Just look to <a href="https://material.io"
+            target="blank">material.io</a> for an example of a professional and comprehensive design system.</p>
+        <p>While it is possible to create, or work off of a design system like this. You can also create a simpler
+          design system to guide your design process. This approach works well with css frameworks such as <a
+            href="https://getbootstrap.com" target="blank">bootstrap</a> or <a href="https://tailwindcss.com" target="blank">tailwind</a>.</p>
+        <div>
+          <h4>This article will cover:</h4>
+          <!--These could be made into anchor links-->
+          <ul class="p-0">
+            <li>Creating a design library</li>
+            <li>Setting up a colour palette</li>
+            <li>Setting up a typography hierarchy</li>
+          </ul>
+          <p>Let's get this show on the road!</p>
+        </div>
+      </section>
+      <section>
+        <!--This could have an anchor link-->
+        <h3><span class="bg-blue-400 p-2 rounded-2xl text-white">Creating a design library</span></h3>
+        <p>You can create a design library in figma and penpot. This is really useful for planning the look and feel of
+          a website.</p>
+        <p>A design library can be shared with other designers and developers. It can also be used to export css styles.</p>
+      </section>
+      <section>
+        <h3><span class="bg-blue-400 p-2 rounded-2xl text-white">Setting up a color palette</span></h3>
+        <p>Color pallettes are very easy to make in both figma and penpot</p>
+        <p>In figma, there is a <strong>+</strong> next to the color tool in the right panel. You can select this and
+          add to styles.</p>
+        <p>In penpot, you will do most of this in the assets tab.</p>
+        <p>When creating your colors, give them names and add the hex value to that name for ease of use later</p>
+      </section>
+      <section>
+        <h3><span class="bg-blue-400 p-2 rounded-2xl text-white">Creating a Typography system</span></h3>
+        <div>
+          <img class="ml-auto mr-auto" src="assets/images/lg/design-pencils.webp" alt="Design Pencils">
+        </div>
+        <p class="mt-8">Add fonts to a typographic system</p>
+        <p>Use a web oriented naming convention and set up the following styles:</p>
+          <ul>
+            <li>h1, h2, p, button, etc</li>
+            <li>font family</li>
+            <li>font-weight</li>
+            <li>font size</li>
+            <li>char spacing</li>
+            <li>line height</li>
+          </ul>
+        <p>Depending on your work flow, you may want to add other content to the title.</p>
+        <div>
+          <h4><strong>Important</strong></h4>
+          <p>You can group your font styles in both figma and penpot</p>
+          <p>To do this, write: <br>/group-title font-name</p>
+          <p>I use /header and /content as two categories when I do this</p>
+        </div>
+      </section>
+      <section>
+        <h3><span class="bg-blue-400 p-2 rounded-2xl text-white">Summary</span></h3>
+        <p>I hope that these pointers are useful to you. Both penpot and figma are great tools for doing UI design work.
+          Figma has a few extra features and pre-made libraries that penpot does not yet support, but the important
+          things can be done in both.</p>
+        <img class="ml-auto mr-auto" src="assets/images/lg/node-js-person.webp" alt="Person holding a sticky note that reads 'Node JS'">
+      </section>
+    </article>
   </main>
+  <footer>
+    <p class="text-center">&copy; 2021 | Lucas Cummings</p>
+  </footer>
 </body>
 </html>
